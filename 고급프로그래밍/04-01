@@ -1,0 +1,6 @@
+# Type or paste your code in this area
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+s=input()
+n = int(input())
+print("String =",s*n)
