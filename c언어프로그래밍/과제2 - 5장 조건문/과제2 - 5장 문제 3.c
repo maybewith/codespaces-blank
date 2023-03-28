@@ -14,6 +14,7 @@ int main() {
 	}
 	else if (c >= 'a' && c <= 'z') {
 		result = (c - 'a' + num) % length + 'a';
+        printf("%c", result);
 	}
 	else {
 		printf("%c", c);
