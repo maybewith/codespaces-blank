@@ -15,17 +15,18 @@ int main() {
     // 적절히 범위를 구별해준다
     if(a>20){
         // 10의 자릿수거를 출력한다
-        switch (expression)
+        switch (ten)
         {
         case /* constant-expression */:
             /* code */
             break;
         
         default:
+            // 아무것도 출력하지 않는다
             break;
         }
         // 1의 자릿수거를 출력한다
-        switch (expression)
+        switch (n)
         {
         case /* constant-expression */:
             /* code */
