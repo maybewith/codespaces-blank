@@ -13,12 +13,12 @@ int main() {
     n=a-ten*10;
 
     // 적절히 범위를 구별해준다
-    if(a>20){
+    if(a>=20){
         // 10의 자릿수거를 출력한다
         switch (ten)
         {
-        case /* constant-expression */:
-            /* code */
+        case 2:
+            printf("");
             break;
         
         default:
@@ -35,8 +35,43 @@ int main() {
         default:
             break;
         }
-    } else if((10<a)&&(a<20)){
-
+    } else if((10<=a)&&(a<20)){
+	switch (a)
+        {
+        case 10:
+            printf("ten");
+            break;
+	case 11:
+            printf("eleven");
+            break;
+	case 12:
+            printf("");
+            break;
+	case 13:
+            printf("");
+            break;
+	case 14:
+            printf("");
+            break;
+	case 15:
+            printf("");
+            break;
+	case 16:
+            printf("");
+            break;
+	case 17:
+            printf("");
+            break;
+	case 18:
+            printf("");
+            break;
+	case 19:
+            printf("");
+            break;
+        default:
+            // 아무것도 출력하지 않는다
+            break;
+        }
     } else {
         printf("none");
     }
